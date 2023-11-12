@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/1d585ba1df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/scripts/pratics.js" type="module" defer></script>
+
+    <title>Kenzie Shop</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <h1 class="header__logo">Kenzie <strong>Travel</strong></h1>
+     
+      <input id="search-produto" type="text"  placeholder="Insira ome do pacote..">
+  
+      <div class="header__menu">
+        <button class="menu__button">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <span class="menu__quantity">0</span>
+      </div>
+    </header>
+    <main class="main__container">
+      <i id="light-mode" class="fa-solid fa-lightbulb"></i>
+      <section class="products__container">
+        <h1 class="products__title">Pacotes</h1>
+        <ul class="products__list"></ul>
+      </section>
+      <aside class="cart__container">
+        <h1 class="cart__title">Carrinho</h1>
+        <ul class="cart__list">
+          
+        </ul>
+        <p class="cart__total">Total: R$ 0.00</p>
+      </aside>
+    </main>
+  </body>
+</html>
